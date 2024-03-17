@@ -1,0 +1,47 @@
+% packages
+\usepackage[a4paper, includefoot,
+            left=2.5cm, right=2.5cm,
+            top=2.5cm, bottom=1.5cm,
+            headsep=1cm, footskip=1cm]{geometry}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T2A]{fontenc}
+\usepackage[english, main=russian]{babel}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{physics}
+\usepackage{nicefrac}
+\usepackage{cancel}
+\usepackage{hyperref}
+\usepackage{cmap}
+\usepackage{indentfirst}
+\usepackage{multirow}
+\usepackage{tempora}
+\usepackage{fancyhdr}
+
+\usepackage{caption}
+\usepackage{subcaption}
+
+\usepackage{sectsty}
+
+\sectionfont{\centering\fontsize{14}{14}\selectfont}
+\subsectionfont{\centering\fontsize{14}{14}\selectfont}
+\subsubsectionfont{\centering\fontsize{14}{14}\selectfont}
+
+\usepackage{setspace}
+\onehalfspacing % Полуторный межстрочный интервал
+\parindent 1.27cm % Абзацный отступ
+
+\addto{\captionsrussian}{\renewcommand*{\contentsname}{\normalsize\centering СОДЕРЖАНИЕ}}
+
+\addto{\captionsrussian}{\renewcommand*{\refname}{\normalsize\centering СПИСОК ЛИТЕРАТУРЫ}}
+
+\hypersetup{colorlinks=false, linkcolor=none, pdfborder=0 0 0}
+
+\pagestyle{fancyplain}
+\fancyhf{} % clear existing header/footer entries
+\renewcommand{\headrulewidth}{0pt}
+\fancyfoot[R]{\thepage}

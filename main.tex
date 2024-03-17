@@ -1,0 +1,49 @@
+\documentclass[12pt, russian, a4paper]{article}
+
+\input{inc/intro}
+
+\begin{document}
+    \input{inc/titlepage}
+    \setcounter{page}{1}
+
+    \tableofcontents
+    
+    \newpage
+    \section*{Введение}
+    \addcontentsline{toc}{section}{Введение}
+    \input{inc/introduction}
+
+    \newpage
+    \section{ОСНОВНЫЕ СВЕДЕНИЯ О НЕЙРОННЫХ СЕТЯХ}
+    \subsection{НЕЙРОННЫЕ СЕТИ}
+    \subsection{ФУНКЦИЯ ПОТЕРЬ}
+    \subsection{МЕТОДЫ ОПТИМИЗАЦИИ}
+
+    \newpage
+    \section{РЕШЕНИЕ СТАЦИОНАРНОГО УРАВНЕНИЯ ШРЁДИНГЕРА}
+    \subsection{ПОСТАНОВКА ЗАДАЧИ}
+
+    %\input{inc/2-1-task}
+    
+    \subsection{ПОСТРОЕНИЕ РЕШЕНИЯ}
+    
+    \subsection{ФУНКЦИЯ ПОТЕРЬ}
+    \subsection{МЕТОД МОНТЕ--КАРЛО}
+
+    \newpage
+    \section{КВАНТОВОМЕХАНИЧЕСКИЙ ГАРМОНИЧЕСКИЙ ОСЦИЛЛЯТОР}
+
+    \newpage
+    \section{АТОМ ГЕЛИЯ}
+        
+    \newpage
+    % ЗАКЛЮЧЕНИЕ
+    \section*{ЗАКЛЮЧЕНИЕ}
+    \addcontentsline{toc}{section}{ЗАКЛЮЧЕНИЕ}
+
+    \newpage
+    \addcontentsline{toc}{section}{Cписок литературы}
+    \bibliographystyle{unsrt}
+    \bibliography{references}
+
+\end{document}
